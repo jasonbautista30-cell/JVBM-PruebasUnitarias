@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="JVBM.Cadenas.UnitTestAppxUnit/JVBM.Cadenas.UnitTestAppxUnit.csproj" />
+  <Project Path="JVBM.Cadenas/JVBM.Cadenas.csproj" />
+  <Project Path="JVBM.Temperatura.UnitTestMSTest/JVBM.Temperatura.UnitTestMSTest.csproj" />
+  <Project Path="JVBM.Temperatura/JVBM.Temperatura.csproj" />
+</Solution>

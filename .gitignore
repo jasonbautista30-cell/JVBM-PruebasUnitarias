@@ -1,0 +1,61 @@
+# .gitignore para proyectos .NET - JVBM Práctica 1
+
+# Directorios de compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de prueba y cobertura
+TestResults/
+[Cc]overage*/
+*.coverage
+*.coveragexml
+*.trx
+
+# Archivos de Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Archivos de credenciales y secretos
+*.pfx
+appsettings.Development.json
+secrets.json
+*.env
+
+# Directorios de JetBrains Rider
+.idea/
+*.sln.iml
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# Archivos de publicación
+publish/
