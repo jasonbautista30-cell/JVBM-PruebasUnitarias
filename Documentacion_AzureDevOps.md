@@ -461,8 +461,8 @@
 | **Precondiciones** | La clase `StringManipulator` debe estar instanciada |
 | **Entrada** | input = "Hola mundo" |
 | **Pasos** | 1. Crear instancia <br>2. `sinEspacios = RemoveSpaces("Hola mundo")` → "Holamundo" <br>3. `resultado = ReverseString("Holamundo")` |
-| **Resultado esperado** | "odnamualoH" |
-| **Resultado real** | ✅ "odnamualoH" — APROBADO |
+| **Resultado esperado** | "odnumaloH" (H-o-l-a-m-u-n-d-o invertido = o-d-n-u-m-a-l-o-H) |
+| **Resultado real** | ✅ "odnumaloH" — APROBADO |
 | **Método de prueba** | `[Fact]` |
 
 ---
