@@ -202,7 +202,7 @@ namespace JVBM.Temperatura.UnitTestMSTest
         /// Prueba parametrizada de conversión Celsius a Fahrenheit con múltiples valores.
         /// Verifica los escenarios con DataRow para cubrir varios casos en una sola prueba.
         /// </summary>
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(0.0, 32.0)]
         [DataRow(100.0, 212.0)]
         [DataRow(-40.0, -40.0)]
@@ -226,7 +226,7 @@ namespace JVBM.Temperatura.UnitTestMSTest
         /// <summary>
         /// Prueba parametrizada de conversión Fahrenheit a Celsius con múltiples valores.
         /// </summary>
-        [DataTestMethod]
+        [TestMethod]
         [DataRow(32.0, 0.0)]
         [DataRow(212.0, 100.0)]
         [DataRow(-40.0, -40.0)]

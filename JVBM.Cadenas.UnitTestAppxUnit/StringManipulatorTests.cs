@@ -154,6 +154,8 @@ namespace JVBM.Cadenas.UnitTestAppxUnit
 
         /// <summary>
         /// Verifica que se puede eliminar espacios e invertir en secuencia correctamente.
+        /// "Hola mundo" → RemoveSpaces → "Holamundo" → ReverseString → "odnumaloH"
+        /// Desglose: H-o-l-a-m-u-n-d-o → invertido → o-d-n-u-m-a-l-o-H
         /// </summary>
         [Fact]
         public void ReverseString_DespuesDeRemoveSpaces_DebeProducirResultadoCorrecto()
@@ -162,11 +164,11 @@ namespace JVBM.Cadenas.UnitTestAppxUnit
             string entrada = "Hola mundo";
 
             // Act: primero eliminamos espacios, luego invertimos
-            string sinEspacios = _manipulator.RemoveSpaces(entrada);   // "Holamundo"
-            string invertida = _manipulator.ReverseString(sinEspacios); // "odnamualoH"
+            string sinEspacios = _manipulator.RemoveSpaces(entrada);    // "Holamundo"
+            string invertida = _manipulator.ReverseString(sinEspacios); // "odnumaloH"
 
             // Assert
-            Assert.Equal("odnamualoH", invertida);
+            Assert.Equal("odnumaloH", invertida);
         }
     }
 }
