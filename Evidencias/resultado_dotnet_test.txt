@@ -1,0 +1,16 @@
+﻿=== RESULTADO DE PRUEBAS - 15/10/2026 11:48:29 ===
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+  JVBM.Cadenas -> C:\Users\jason\Downloads\Practica1-PruebasUnitarias\JVBM.Cadenas\bin\Release\net8.0\JVBM.Cadenas.dll
+  JVBM.Temperatura -> C:\Users\jason\Downloads\Practica1-PruebasUnitarias\JVBM.Temperatura\bin\Release\net8.0\JVBM.Temperatura.dll
+  JVBM.Cadenas.UnitTestAppxUnit -> C:\Users\jason\Downloads\Practica1-PruebasUnitarias\JVBM.Cadenas.UnitTestAppxUnit\bin\Release\net8.0\JVBM.Cadenas.UnitTestAppxUnit.dll
+Serie de pruebas para C:\Users\jason\Downloads\Practica1-PruebasUnitarias\JVBM.Cadenas.UnitTestAppxUnit\bin\Release\net8.0\JVBM.Cadenas.UnitTestAppxUnit.dll (.NETCoreApp,Version=v8.0)
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+  JVBM.Temperatura.UnitTestMSTest -> C:\Users\jason\Downloads\Practica1-PruebasUnitarias\JVBM.Temperatura.UnitTestMSTest\bin\Release\net8.0\JVBM.Temperatura.UnitTestMSTest.dll
+Serie de pruebas para C:\Users\jason\Downloads\Practica1-PruebasUnitarias\JVBM.Temperatura.UnitTestMSTest\bin\Release\net8.0\JVBM.Temperatura.UnitTestMSTest.dll (.NETCoreApp,Version=v8.0)
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+
+Correctas! - Con error:     0, Superado:    18, Omitido:     0, Total:    18, Duraci├│n: 912 ms - JVBM.Cadenas.UnitTestAppxUnit.dll (net8.0)
+
+Correctas! - Con error:     0, Superado:    24, Omitido:     0, Total:    24, Duraci├│n: 616 ms - JVBM.Temperatura.UnitTestMSTest.dll (net8.0)
+

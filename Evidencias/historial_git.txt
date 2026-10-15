@@ -1,0 +1,8 @@
+﻿=== HISTORIAL GIT - 15/10/2026 11:48:38 ===
+41b2cc0 15/10/2026 11:47 fix: corregir valor esperado XUN-014 y advertencias DataTestMethod; agregar documentacion final
+d11b316 15/10/2026 11:41 test: agregar pruebas xUnit para StringManipulator - Fact, Theory e InlineData (10+ escenarios)
+b91f5dc 15/10/2026 11:40 feat: implementar StringManipulator con ReverseString y RemoveSpaces (Ejercicio 2)
+dab9a23 15/10/2026 11:40 test: agregar pruebas MSTest para TemperatureConverter - 10+ escenarios con DataTestMethod
+69ec335 15/10/2026 11:40 feat: implementar TemperatureConverter con conversiones Celsius/Fahrenheit (Ejercicio 1)
+2b95689 15/10/2026 11:40 feat: estructura inicial de la soluci├│n JVBM.PruebasUnitarias con 4 proyectos .NET 8
+
